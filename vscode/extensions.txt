@@ -1,0 +1,3 @@
+PeterJausovec.vscode-docker
+ms-vscode.csharp
+robertohuertasm.vscode-icons

@@ -8,4 +8,4 @@
 
 set -e
 
-apm list --installed --bare > $ZSH/atom.symlink/packages.txt
+code --list-extensions > $ZSH/vscode/extensions.txt
