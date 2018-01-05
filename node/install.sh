@@ -1,4 +1,4 @@
-if test ! $(which spoof)
+if test ! $(which grunt)
 then
-  sudo npm install spoof -g
+  sudo npm install grunt -g
 fi

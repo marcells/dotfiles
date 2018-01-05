@@ -1,0 +1,17 @@
+antigen use oh-my-zsh
+
+antigen bundle <<EOBUNDLES
+    git
+    git-flow
+    command-not-found
+    docker
+    zsh-autosuggestions
+    z
+    
+    zsh-users/zsh-autosuggestions
+    zsh-users/zsh-completions
+EOBUNDLES
+
+antigen theme agnoster
+
+antigen apply
