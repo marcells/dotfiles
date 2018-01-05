@@ -1,6 +1,6 @@
 antigen use oh-my-zsh
 
-antigen bundle <<EOBUNDLES
+antigen bundles <<EOBUNDLES
     git
     git-flow
     command-not-found
