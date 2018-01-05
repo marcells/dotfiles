@@ -2,3 +2,10 @@
         path = ~/.gitconfig.local
 [alias]
         st = status
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        editor = code --wait
