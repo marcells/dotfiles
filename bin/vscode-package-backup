@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if pgrep -x "code" > /dev/null
+then
+    echo "Visual Studio Code is running. Please close it and try it again."
+    exit 1
+fi
+
+code --list-extensions > "$ZSH/vscode/extensions.txt"
+
+cat "$ZSH/vscode/extensions.txt"
