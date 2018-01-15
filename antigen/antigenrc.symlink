@@ -15,3 +15,6 @@ EOBUNDLES
 antigen theme agnoster
 
 antigen apply
+
+# Keybindings
+bindkey '^ ' autosuggest-accept
